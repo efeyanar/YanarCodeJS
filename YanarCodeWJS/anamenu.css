@@ -1,0 +1,295 @@
+
+body{
+    background-color: #f2f2f2;
+}
+.ortakısım{
+    margin-top: 30px;
+    text-align: center;
+}
+.ortabaşlık{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 800;
+    color: #524B8A;
+}
+.şey{
+    color: #3b3662;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+    position: relative;
+    
+}
+.kucukresimler{
+    height: 100px;
+    width: 70px;
+    filter: blur(3px);
+    position: absolute;
+    z-index: -1;
+
+}
+.mouse{
+    left: 390px;
+    top: 250px;
+    width: 60px;
+    height: 90px;
+}
+.baglantı{
+    right: 390px;
+    top: 250px;
+    width: 100px;
+}
+.wifi{
+    right: 420px;
+    top: 500px;
+    width: 90px;
+}
+.dunya{
+    left: 415px;
+    top: 500px;
+    width: 100px;
+}
+.ag{
+    top: 600px;
+    left: 660px;
+    filter: blur(1px);
+    width: 100px;
+}
+.menuler{
+    display: flex;
+    flex-direction: column;
+}
+#hakkında{
+    margin-top: 150px;
+    background-color: #282442;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 250px;
+
+}
+.hakkındabaşlık{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+.hakkındaiçerik{
+    margin: 0 100px;
+    font-size: 23px;
+    line-height: 37px;
+    
+}
+.günümüz{
+    margin-top: 25px;
+}
+.herbirey{
+    font-size: 28px;
+}
+.küçüklink{
+    color: #f2f2f2;
+}
+.küçüklink:hover{
+    text-decoration: none;
+}
+
+
+#eğitimler{
+    padding-top: 50px;
+    text-align: center;
+}
+#paketler{
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.paketlerlisteleri{
+    margin-top:25px ;
+}
+.eğitimlerbaşlık{
+    margin-bottom: 20px;
+    color: #282442;
+}
+.paketlerbaşlık{
+    color: #282442;
+}
+.eğitimlerkutusu{
+    display: flex;
+    justify-content: space-around;
+}
+.eğitimlerkutucuk{
+    border: 5px solid #282442;
+    width: 370px;
+    
+}
+.eğitimlerkutucuk:hover{
+    box-shadow: 0px 0px 20px #242424;
+    transform: scale(1.01);
+}
+.eğitimlerküçükbaşlık{
+    margin-top: 20px;
+    
+    font-size: 23px;
+    color: #282442;
+}
+.eğitimlerliste{
+    margin-bottom: 30px;
+    font-size: 23px;
+    line-height: 1.5;
+    color: #282442;
+
+}
+.eğitimleribitirdiğinde{
+    font-size: 27px;
+    
+}
+.jsimg{
+    margin-top: 10px;
+}
+.kutucuklistemadde{
+    font-size: 20px;
+    width: 100%;
+    list-style: none;
+    margin-top: 9px;
+}
+.kutucuklistemadde:nth-child(odd){
+    background-color: #ffffff;
+}
+.başla{
+    padding: 15px 60px;
+    margin: 12px 0;
+    background-color: #282442;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 5px solid #282442;
+}
+.başla:hover{
+    background-color: #3b3662;
+}
+.başla:active{
+    background-color: #524B8A;
+}
+.websitesipaketleri{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+}
+.websitesipaketlerisağ{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.websitesipaketlerisol{
+    margin-top: 68px;
+}
+.websitesipaketlerisağliste{
+    list-style-type: none;
+    
+}
+.websitesipaketlerisolliste{
+    list-style-type: none;
+}
+.websitesipaketlerivaryok{
+    font-size: 22px;
+    line-height: 2.5;
+}
+.websitesipaketleriiçerik{
+    border: 5px solid #282442;
+    width: 220px;
+}
+.websitesipaketleribaşlık{
+    background-color: #282442;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.websitesipaketlerimaddeler{
+    font-size: 22px;
+    color: #666666;
+    line-height: 2.5;
+}
+.websitesipaketlerivaryok:nth-child(odd){
+    background-color: #ffffff;
+}
+.paketbuton{
+    margin-top: 10px;
+    padding: 15px 50px;
+    border: 4px solid #3b3662;
+    border-radius: 40px;
+    background-color: #3b3662;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+.paketbuton:hover{
+    cursor: pointer;
+    background-color: #524B8A;
+    border: 4px solid #524B8A;
+}
+.paketbuton:active{
+    border: 4px solid #423c6a;
+}
+.footerbaşlık{
+    font-size: 30px;
+    color: #666666;
+
+}
+
+.footeriçerik{
+    color: #666666;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 50px;
+    border-top: 1px solid #666666;
+    
+}
+.yanarcodebaşlık{
+    font-size: 30px;
+    color: #282442;
+}
+.yanarcodeiçerik{
+    font-size: 22px;
+    line-height: 1.5;
+    color: #3b3662;
+    text-align: center;
+    margin-top: 100px;
+}
+.yanarcodeyazı{
+    margin-top: 30px;
+}
+.sosyalmedya{
+    color: #666666;
+    font-size: 40px;
+    margin-left: 25px;
+}
+.sosyalmedya:hover{
+    cursor: pointer;
+    color: #666666;
+}
+.sosyalmedya:visited{
+    color: #666666;
+}
+.sosyalmedya:active{
+    color: #666666;
+}
+.footeryazı{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footerbaşlık{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+#son{
+    height: 260px;
+}

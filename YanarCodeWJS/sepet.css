@@ -1,0 +1,71 @@
+#sepet {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    color: #282442;
+    padding: 20px;
+    border: 2px solid #282442;
+    border-radius: 10px;
+    z-index: 9999; /* Sepetin ekranın önünde olmasını sağlar */
+    display: none; /* Başlangıçta gizli */
+    width: 500px;
+    height: 600px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.sepetbaslik{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.gizli {
+    display: none; /* Gizliyken görünmez */
+}
+
+#sepetButonu{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #282442;
+    font-weight: bold;
+    border:3px solid #282442;
+    background-color: #f2f2f2;
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    }
+
+    #kapatButonu{
+        position: fixed;
+        right: -20px;
+        top: -20px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #282442;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    #onaylaButonu{
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        background-color: #282442;
+        color: #f2f2f2;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cikarButonu{
+        width: 150px;
+        height: 30px;
+        font-size: 16px;
+    }

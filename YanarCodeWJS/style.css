@@ -1,0 +1,20 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic&subset=latin,latin-ext");
+
+/* açık renk = #f2f2f2
+en koyu mor renk = #282442
+koyu mor renk = #3b3662
+açık mor renk = #efeff6 
+açık mor renk 2 = 524B8A
+koyu yazı rengi = #666666 
+açık yazı rengi = #969696*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html,
+* {
+    font-family: "Open Sans, sans-serif";
+}
